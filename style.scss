@@ -19,7 +19,7 @@ html {
 }
 
 body {
-	background: $white;
+  background: $white;
   font: 18px/1.4 $sans;
   font-weight: 300;
   color: $darkGray;
@@ -115,7 +115,7 @@ img {
 }
 
 .date {
-  font-style: italic;
+  font: 16px $accent;
   color: $gray;
 }
 
