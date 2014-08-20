@@ -7,7 +7,7 @@
 
 @import "_reset";
 @import "_variables";
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:300|Dosis|Julius+Sans+One);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400|Dosis|Julius+Sans+One);
 // Syntax highlighting @import is at the bottom of this file
 
 /**************/
@@ -20,7 +20,7 @@ html {
 
 body {
 	background: $white;
-  font: 18px/1.4 $helvetica;
+  font: 18px/1.4 $sans;
   color: $darkGray;
 }
 
@@ -32,7 +32,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: $helveticaNeue;
+  font-family: $sans;
   color: $darkerGray;
   font-weight: 600;
   
@@ -192,7 +192,7 @@ img {
   margin: 0;
   color: $darkGray;
   cursor: pointer;
-  font-family: $helveticaNeue; 
+  font-family: $accent; 
   font-weight: 300;
   font-size: 28px;
   letter-spacing: 1px;
@@ -211,7 +211,7 @@ img {
 nav {
   float: right;
   margin-top: 23px; // @TODO: Vertically middle align
-  font-family: $helveticaNeue; 
+  font-family: $accent; 
   font-size: 18px;
   
   @include mobile {
