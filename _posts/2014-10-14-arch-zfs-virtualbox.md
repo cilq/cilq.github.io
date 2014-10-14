@@ -8,7 +8,7 @@ __In order to move away from Mac OS I use Arch Linux on my work notebook - that'
 - setup
 - problems in vbox
 - problems reach regular install (mkinitcpi in virtualbox?)
-- diagnose (import -d /dev/sda, import -d /dev/disk ... -> clean /dev/disk/by-id, zpool import -R /new_root, fail with kernel parameter zfs=rpool, redoing arch zfs wiki entry, forum hint -> could not mount '' -> empty string -> zpool.cache in initramfs
+- diagnose (import -d /dev/sda, import -d /dev/disk ... -> clean /dev/disk/by-id, zpool import -R /new_root, fail with kernel parameter zfs=rpool, redoing arch zfs wiki entry, forum ([hint](https://bbs.archlinux.org/viewtopic.php?id=174720) -> could not mount '' -> empty string -> zpool.cache in initramfs
 - fix (mkinitramfs -> copy to efi -> vbox crash -> rescue boot -> copy -> works
 - next steps
 
